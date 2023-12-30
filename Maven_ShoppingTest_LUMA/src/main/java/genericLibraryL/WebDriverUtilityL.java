@@ -12,4 +12,6 @@ public class WebDriverUtilityL {
 	public static void mouseHover(WebDriver driver,WebElement element) {
 		action.moveToElement(element).perform();
 	}
+	public static void click(Webdriver driver,WebElement element) {
+		action.click(element).perform();
 }
